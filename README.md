@@ -1,12 +1,3 @@
-# ROS2 Packages
-Hai
-
-## Node Graph
-![Node graph](img/graph.png)
-
-## Installation
-Install dulu Linux Ubuntu 22 dan [ROS2](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debs.html)
-
 ### Install Dependencies
 ```
 $ sudo apt update
@@ -14,11 +5,11 @@ $ sudo apt install python3-pip ros-humble-rosbridge-suite ros-humble-web-video-s
 $ pip install opencv-python
 ```
 
-### Buat ws dab Clone Repo
+### ws
 ```
 $ mkdir your_ws
 $ cd your_ws
-$ git clone https://github.com/Robotiik-Quadcopter-Team/workshop-ros2.git src
+$ git clone https://github.com/iqqy-x/RDrone.git src
 ```
 
 ### Build
@@ -32,6 +23,3 @@ Pake launch aja ***d_bringup***
 ```
 $ ros2 launch d_bringup sim_bringup.launch.yaml
 ```
-
-## Note 
-Apa ya
