@@ -9,7 +9,7 @@ $ pip install opencv-python
 ```
 $ mkdir your_ws
 $ cd your_ws
-$ git clone https://github.com/iqqy-x/RDrone.git src
+$ git clone https://github.com/iqqy-x/ROS-Drone-Workspace.git src
 ```
 
 ### Build
